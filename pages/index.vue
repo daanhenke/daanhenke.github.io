@@ -10,7 +10,9 @@
 
   <layout-section name="Details">
     <div v-for="detail, key in details" :key="key" class="detail">
-      {{ capitalize(key) }}: {{ detail }}
+      <div class="pt-2">
+        {{ capitalize(key) }}: {{ detail }}
+      </div>
     </div>
   </layout-section>
 
@@ -48,7 +50,7 @@
 .bio-container { @apply pt-2; }
 
 .welcome-image {
-  @apply w-32 h-32 sm:w-48 sm:h-48 md:w-64 md:h-64 rounded-full bg-cover;
+  @apply w-24 h-24 md:w-48 md:h-48 rounded-full bg-cover;
   background-image: url(/me.jpg);
 }
 </style>

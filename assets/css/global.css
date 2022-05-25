@@ -17,5 +17,5 @@ html, body, #__nuxt, #__layout, .layout {
   color: var(--col-text-bright);
 }
 
-.nuxt-content-container  p { @apply mt-2 mb-2; }
+.nuxt-content-container  p { @apply mt-0 mb-2; }
 .nuxt-content-container  a { @apply border-b-1; }
