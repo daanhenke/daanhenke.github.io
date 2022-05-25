@@ -49,7 +49,7 @@
 
 .welcome-image {
   @apply w-32 h-32 sm:w-48 sm:h-48 md:w-64 md:h-64 rounded-full bg-cover;
-  background-image: url(https://picsum.photos/200);
+  background-image: url(/me.jpg);
 }
 </style>
 
