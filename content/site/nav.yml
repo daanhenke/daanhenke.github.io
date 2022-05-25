@@ -1,0 +1,18 @@
+header:
+  primary:
+    - name: "Home"
+      path: "/"
+    - name: "Blog"
+      path: "/blog"
+  secondary:
+    - name: "GitHub"
+      path: "https://github.com/daanhenke"
+footer:
+  - name: "GitHub"
+    path: "https://github.com/daanhenke"
+  - name: "E-Mail"
+    path: "mailto:daanhenkek@gmail.com"
+    type: 'external'
+  - name: "CV"
+    path: "/cv.pdf"
+    type: 'external'

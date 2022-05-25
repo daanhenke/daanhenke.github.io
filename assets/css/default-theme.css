@@ -1,0 +1,7 @@
+:root {
+  --col-bg-default: #111111;
+  --col-text-default: #888888;
+  --col-text-bright: #eaeaea;
+
+  --gradient-primary: linear-gradient(to right, #a8ff78, #78ffd6);
+}

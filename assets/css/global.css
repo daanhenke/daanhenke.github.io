@@ -1,0 +1,21 @@
+.bg-default { background-color: var(--col-bg-default); }
+.fg-default { color: var(--col-text-default); }
+.fg-bright { color: var(--col-text-bright); }
+
+html, body, #__nuxt, #__layout, .layout {
+  @apply flex flex-col h-screen flex-grow;
+  background-color: var(--col-bg-default);
+  color: var(--col-text-default);
+}
+
+.icon {
+  @apply w-6 h-6;
+  fill: var(--col-text-default);
+}
+
+.nuxt-content-container  h1, h2, h3, h4, h5, h6 {
+  color: var(--col-text-bright);
+}
+
+.nuxt-content-container  p { @apply mt-2 mb-2; }
+.nuxt-content-container  a { @apply border-b-1; }
