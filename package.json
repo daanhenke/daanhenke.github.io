@@ -23,6 +23,7 @@
   "devDependencies": {
     "@windicss/plugin-animations": "^1.0.9",
     "nuxt-pdf": "^2.0.1",
-    "nuxt-windicss": "^2"
+    "nuxt-windicss": "^2",
+    "puppeteer": "^14.1.1"
   }
 }
